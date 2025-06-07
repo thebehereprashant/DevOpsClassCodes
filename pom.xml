@@ -416,7 +416,6 @@
                 </plugins>
             </build>
             <reporting>
-                <plugins>
 <plugin>
   <groupId>org.codehaus.mojo</groupId>
   <artifactId>cobertura-maven-plugin</artifactId>
@@ -435,7 +434,6 @@
     </formats>
   </configuration>
 </plugin>
-                    <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-pmd-plugin</artifactId>
                         <version>2.5</version>
